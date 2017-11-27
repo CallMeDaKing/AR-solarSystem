@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mqg-xO-gZZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rRg-9W-H6Y">
+            <objects>
+                <viewController id="Mqg-xO-gZZ" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cfr-7A-SOV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zcg-eF-Cl4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iPL-uQ-TSk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9L-hu-ba3">
+                                <rect key="frame" x="112.5" y="258" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Kcb-a0-y1f"/>
+                                    <constraint firstAttribute="height" constant="150" id="QDP-pb-Wcn"/>
+                                </constraints>
+                                <state key="normal" title="进入太阳系"/>
+                                <connections>
+                                    <action selector="sender:" destination="Mqg-xO-gZZ" eventType="touchUpInside" id="pxt-Hx-8qv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f9L-hu-ba3" firstAttribute="centerY" secondItem="iPL-uQ-TSk" secondAttribute="centerY" id="d2N-RE-ldU"/>
+                            <constraint firstItem="f9L-hu-ba3" firstAttribute="centerX" secondItem="iPL-uQ-TSk" secondAttribute="centerX" id="j1O-Ll-Ld2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UlO-D7-6kY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="-150"/>
+        </scene>
+    </scenes>
+</document>
