@@ -5,6 +5,6 @@
 
 
 
-![效果展示] (https://github.com/CallMeDaKing/AR-solarSystem/blob/master/AR-SolarSystem/AR%20-solarSystem.gif)
+![效果展示](https://github.com/CallMeDaKing/AR-solarSystem/blob/master/AR-SolarSystem/AR%20-solarSystem.gif)
 
 
